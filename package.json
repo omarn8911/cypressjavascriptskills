@@ -1,0 +1,33 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "End to end Framework Test Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:runTest1": "cypress run --spec cypress/integration/Test1.js",
+    "cypress:runChromeTest1": "cypress run --browser chrome --spec cypress/integration/Test1.js",
+    "cypress:runChromeHeadlessTest1": "cypress run --headless --browser chrome --spec cypress/integration/Test1.js",
+    "cypress:runChromeActionsHeadless": "cypress run --headless --browser chrome --spec cypress/integration/2-advanced-examples/actions.spec.js",
+    "cypress:runChromeActionsHeaded": "cypress run --headed --browser chrome --spec cypress/integration/2-advanced-examples/actions.spec.js"
+  },
+  "author": "omarn8911",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.7.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "dependencies": {
+    "chrome-remote-interface": "^0.31.0",
+    "cypress-iframe": "^1.0.1",
+    "iframe": "^1.0.0"
+  },
+  "keywords": [
+    "End",
+    "to",
+    "end",
+    "framework",
+    "test",
+    "cypress"
+  ]
+}

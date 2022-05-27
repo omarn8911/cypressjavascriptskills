@@ -1,0 +1,12 @@
+{
+    "experimentalSessionSupport": true,
+    "experimentalSessionAndOrigin": true,
+    "chromeWebSecurity": false ,
+    "baseUrl": "https://rahulshettyacademy.com/",
+    "env": {
+      "AutomationPracticeUrl": "https://rahulshettyacademy.com/AutomationPractice/"
+    },
+    "projectId": "xtunw8"
+  
+  }
+  
